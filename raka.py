@@ -106,7 +106,8 @@ if __name__ == "__main__":
 
     minat_to_fakultas_map = {
         'saintek': ['teknik', 'teknologi informasi','kedokteran','matematika dan ilmu pengetahuan alam'],
-        'sosial': ['hukum', 'psikologi'] 
+        'sosial': ['hukum', 'psikologi','ilmu sosial dan ilmu politik','ilmu bahasa'],
+        'seni':['seni rupa desain']
     }
 
     if minat_terpilih and minat_terpilih in minat_to_fakultas_map: #minat_terpilih in dst itu cek ada di map atau tidak (line 110,111)
@@ -158,7 +159,10 @@ if __name__ == "__main__":
         'kedokteran': ['kedokteran', 'farmasi','keperawatan','ahli gizi'],
         'matematika dan ilmu pengetahuan alam': ['matematika', 'fisika', 'biologi', 'kimia'],
         'hukum': ['hukum'],
-        'psikologi': ['psikologi']
+        'psikologi': ['psikologi'],
+        'ilmu sosial dan ilmu politik': ['ilmu komunikasi', 'ilmu politik', 'sosiologi','hubungan internasional'],
+        'ilmu bahasa': ['sastra','ilmu perpustakaan'],
+        'seni rupa desain': ['seni rupa', 'desain interior', 'DKV']
     }
 
     if fakultas_terpilih and fakultas_terpilih in fakultas_to_jurusan_map:

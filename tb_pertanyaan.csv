@@ -1,20 +1,48 @@
 id;kode;gejala;tipe_pertanyaan;kategori_terkait
 1;G001;Apakah Anda tertarik pada inovasi teknologi dan sains?;minat;saintek
-3;G003;Apakah Anda suka kegiatan yang melibatkan pemahaman perilaku manusia?;minat;sosial
-4;G004;Apakah Anda tertarik pada studi seni?;minat;seni
-5;GFT01;Apakah Anda tertarik pada desain bangunan dan perencanaan kota?;fakultas;teknik
-6;GFT01;Apakah Anda tertarik pada prinsip-prinsip mekanika dan energi?;fakultas;teknik
-7;GFTI01;Apakah Anda tertarik pada pengembangan perangkat lunak dan aplikasi?;fakultas;teknologi
-8;GFTI02;Apakah Anda tertarik pada pengelolaan database dan jaringan komputer?;fakultas;teknologi
-9;GFH01;Apakah Anda tertarik dengan proses peradilan di pengadilan (litigasi)?;jurusan;hukum
-10;GFH02;Apakah Anda tertarik untuk mendalami bidang-bidang spesifik dalam hukum, seperti hukum pidana atau perdata?;jurusan;hukum
-11;GFPsi01;Apakah Anda tertarik pada pemahaman tentang pikiran, emosi, dan perilaku manusia?;jurusan;psikologi
-12;GFPsi02;Apakah Anda tertarik pada interaksi manusia dalam konteks organisasi dan kelompok?;jurusan;psikologi
-13;GFTARS01;Apakah Anda tertarik pada perancangan dan konstruksi bangunan?;jurusan;arsitektur
-14;GFTARS02;Apakah Anda menikmati kegiatan menggambar (baik sketsa tangan maupun menggunakan perangkat lunak desain seperti CAD atau BIM), membuat model fisik atau digital tiga dimensi, dan memvisualisasikan ide-ide rancangan ruang secara detail?;jurusan;arsitektur
-15;GFTTE01;Apakah Anda tertarik pada desain dan analisis sistem kelistrikan;jurusan;teknik elektro
-16;GFTTE02;Apakah Anda memiliki rasa ingin tahu yang besar dan minat mendalam terhadap prinsip-prinsip dasar kelistrikan (arus, tegangan, daya), sirkuit elektronik (analog dan digital), dan fenomena medan elektromagnetik, serta bagaimana semua itu dapat diterapkan dalam teknologi?;jurusan;teknik elektro
-17;GFTITI01;Apakah Anda berminat mengoperasikan komputer dalam jangka lama?;jurusan;teknik informatika
-18;GFTITI02;Apakah Anda tertarik pada pengembangan AI, aplikasi web dan mobile?;jurusan;teknik informatika
-19;GFTISI01;Apakah Anda tertarik untuk menganalisis kebutuhan informasi dan proses bisnis dalam suatu organisasi? ;jurusan;sistem informasi
-20;GFTISI02;Apakah Anda memiliki minat untuk menjembatani komunikasi antara pihak teknis (seperti para programmer atau insinyur IT) dengan pihak pengguna atau manajemen bisnis, serta mampu menerjemahkan kebutuhan bisnis menjadi spesifikasi sistem yang dapat dipahami oleh tim teknis?;jurusan;sistem informasi
+2;G002;Apakah Anda suka kegiatan yang melibatkan pemahaman perilaku manusia?;minat;sosial
+3;G003;Apakah Anda tertarik pada studi seni?;minat;seni
+4;GFT01;Apakah Anda tertarik pada desain bangunan dan perencanaan kota?;fakultas;teknik
+5;GFT01;Apakah Anda tertarik pada prinsip-prinsip mekanika dan energi?;fakultas;teknik
+6;GFTI01;Apakah Anda tertarik pada pengembangan perangkat lunak dan aplikasi?;fakultas;teknologi informasi
+7;GFTI02;Apakah Anda tertarik pada pengelolaan database dan jaringan komputer?;fakultas;teknologi informasi
+8;GFK01;Apakah Anda memiliki minat yang tinggi untuk berinteraksi langsung dengan pasien dan masyarakat, serta memiliki empati yang kuat untuk membantu memecahkan masalah kesehatan manusia secara aplikatif, baik melalui diagnosis, perawatan, nutrisi, maupun pengelolaan obat?;fakultas;kedokteran
+9;GFK02;Apakah Anda siap mendedikasikan waktu untuk mempelajari sistem tubuh manusia secara mendetail, menghafal banyak informasi (seperti anatomi, fisiologi, dan biokimia), serta mengikuti pendidikan jangka panjang yang terstruktur dan penuh dengan praktik klinis?;fakultas;kedokteran
+10;GFMIPA01;"Apakah Anda lebih tertarik untuk memahami prinsip-prinsip dasar alam semesta melalui penalaran logis, pembuktian rumus, eksperimen di laboratorium, dan analisis data, untuk mengungkap ""mengapa"" dan ""bagaimana"" sebuah fenomena alam terjadi?";fakultas;matematika dan ilmu pengetahuan alam
+11;GFMIPA02;Apakah Anda menikmati proses pemecahan masalah yang bersifat abstrak dan teoretis menggunakan model matematis, serta memiliki rasa ingin tahu yang besar terhadap penelitian fundamental dan pengembangan ilmu pengetahuan murni?;fakultas;matematika dan ilmu pengetahuan alam
+12;GFH01;Apakah Anda memiliki minat yang kuat pada isu-isu sosial, kenegaraan, dan keadilan, serta menikmati kegiatan membaca, menganalisis teks yang kompleks (seperti undang-undang dan studi kasus), dan menyusun argumen yang logis dan terstruktur?;fakultas;hukum
+13;GFH02;Apakah Anda cenderung berpikir secara objektif, sistematis, dan berdasarkan aturan yang berlaku dalam memecahkan masalah, serta tertarik pada profesi yang berhubungan dengan penegakan peraturan, pembelaan hak, atau pembuatan kebijakan publik?;fakultas;hukum
+14;GFPsi01;Apakah Anda memiliki rasa ingin tahu yang besar untuk memahami alasan di balik perilaku, emosi, dan proses berpikir manusia, serta senang mengamati, mendengarkan, dan menganalisis interaksi sosial di sekitar Anda?;fakultas;psikologi
+15;GFPsi02;Apakah Anda memiliki empati yang tinggi dan tertarik untuk membantu individu atau kelompok mengatasi masalah personal, mengembangkan potensi diri, serta memahami dinamika hubungan antarmanusia dari sudut pandang ilmiah?;fakultas;psikologi
+16;GFTTS01;Apakah Anda memiliki minat yang kuat untuk merancang dan membangun berbagai infrastruktur fisik seperti gedung, jembatan, jalan raya, terowongan, bandara, pelabuhan, atau sistem pengelolaan air;jurusan;teknik sipil
+17;GFTTS02;Apakah Anda tertarik untuk mempelajari dan menganalisis kekuatan berbagai jenis struktur bangunan, sifat-sifat material konstruksi (seperti beton, baja, kayu, aspal), serta bagaimana memastikan keamanan dan ketahanan suatu infrastruktur terhadap berbagai beban dan kondisi lingkungan?;jurusan;teknik sipil
+18;GFTARS01;Apakah Anda tertarik pada perancangan dan konstruksi bangunan?;jurusan;arsitektur
+19;GFTARS02;Apakah Anda menikmati kegiatan menggambar (baik sketsa tangan maupun menggunakan perangkat lunak desain seperti CAD atau BIM), membuat model fisik atau digital tiga dimensi, dan memvisualisasikan ide-ide rancangan ruang secara detail?;jurusan;arsitektur
+20;GFTTE01;Apakah Anda tertarik pada desain dan analisis sistem kelistrikan;jurusan;teknik elektro
+21;GFTTE02;Apakah Anda memiliki rasa ingin tahu yang besar dan minat mendalam terhadap prinsip-prinsip dasar kelistrikan (arus, tegangan, daya), sirkuit elektronik (analog dan digital), dan fenomena medan elektromagnetik, serta bagaimana semua itu dapat diterapkan dalam teknologi?;jurusan;teknik elektro
+22;GFTTI01;Apakah Anda tertarik untuk menganalisis, merancang, dan meningkatkan sistem kerja atau proses operasional dalam berbagai jenis organisasi;jurusan;teknik industri
+23;GFTTI02;Apakah Anda memiliki minat dalam upaya peningkatan dan pengendalian kualitas produk atau layanan, termasuk penerapan metode statistik, standar mutu (seperti ISO), dan filosofi perbaikan berkelanjutan;jurusan;teknik industri
+24;GFTITI01;Apakah Anda berminat mengoperasikan komputer dalam jangka lama?;jurusan;teknik informatika
+25;GFTITI02;Apakah Anda tertarik pada pengembangan AI, aplikasi web dan mobile?;jurusan;teknik informatika
+26;GFTISI01;Apakah Anda tertarik untuk menganalisis kebutuhan informasi dan proses bisnis dalam suatu organisasi? ;jurusan;sistem informasi
+27;GFTISI02;Apakah Anda memiliki minat untuk menjembatani komunikasi antara pihak teknis (seperti para programmer atau insinyur IT) dengan pihak pengguna atau manajemen bisnis, serta mampu menerjemahkan kebutuhan bisnis menjadi spesifikasi sistem yang dapat dipahami oleh tim teknis?;jurusan;sistem informasi
+28;GFMIPAM01;Apakah kamu tertarik untuk mempelajari berbagai cabang matematika murni seperti aljabar, analisis (kalkulus), geometri, topologi, atau matematika diskrit, serta memahami hubungan antar cabang tersebut?;jurusan;matematika
+29;GFMIPAM02;Apakah kamu menikmati bekerja dengan konsep-konsep abstrak, simbol-simbol, dan struktur logika untuk memecahkan masalah atau membuktikan suatu pernyataan secara rigor (tepat dan tanpa celah)?;jurusan;matematika
+30;GFMIPAF01;Apakah kamu punya rasa ingin tahu yang sangat besar untuk memahami hukum-hukum dasar alam semesta yang mengatur perilaku materi, energi, ruang, dan waktu, dari partikel subatomik hingga galaksi?;jurusan;fisika
+31;GFMIPAF02;Apakah kamu tertarik untuk mempelajari konsep-konsep fisika inti seperti mekanika (gerak dan gaya), termodinamika (panas dan energi), elektromagnetisme (listrik dan magnet), relativitas, dan mekanika kuantum?;jurusan;fisika
+32;GFMIPAB01;Apakah kamu punya ketertarikan yang mendalam terhadap berbagai bentuk kehidupan, mulai dari mikroorganisme (bakteri, virus), jamur, tumbuhan, hewan, hingga manusia, serta proses-proses yang menunjang kehidupan mereka?;jurusan;biologi
+33;GFMIPAB02;Apakah kamu tertarik untuk mempelajari struktur dan fungsi sel (biologi sel), mekanisme pewarisan sifat dan evolusi (genetika dan evolusi), serta interaksi antar molekul (seperti DNA, RNA, protein) dalam sistem kehidupan (biologi molekuler)?;jurusan;biologi
+34;GFMIPAK01;Apakah kamu punya ketertarikan yang kuat untuk mempelajari tentang materi, termasuk komposisinya, struktur atom dan molekul, sifat-sifat berbagai zat (padat, cair, gas), serta bagaimana zat-zat tersebut dapat berubah melalui reaksi kimia?;jurusan;kimia
+35;GFMIPAK02;Apakah kamu menikmati kegiatan praktikum di laboratorium kimia, seperti melakukan sintesis (pembuatan) senyawa baru, mengukur sifat-sifat fisik dan kimia zat, memisahkan dan memurnikan campuran, atau menggunakan berbagai instrumen analisis kimia?;jurusan;kimia
+36;GFKK01;Apakah Anda memiliki minat yang sangat mendalam dan rasa ingin tahu yang besar untuk mempelajari struktur (anatomi) dan fungsi (fisiologi) tubuh manusia secara detail, mulai dari tingkat seluler hingga sistem organ yang kompleks?;jurusan;kedokteran
+37;GFKK02;Apakah Anda siap secara mental dan termotivasi untuk menjalani proses pendidikan yang panjang, intensif, dan menuntut komitmen tinggi, serta terus belajar sepanjang hayat (long-life learning) untuk mengikuti perkembangan pesat ilmu kedokteran?;jurusan;kedokteran
+38;GFKF01;Apakah Anda memiliki ketertarikan yang kuat pada ilmu kimia (organik, anorganik, fisika), biokimia, dan bagaimana senyawa-senyawa kimia tersebut dapat dirancang, disintesis, atau diisolasi untuk menjadi bahan aktif obat yang berkhasiat?;jurusan;farmasi
+39;GFKF02;Apakah Anda tertarik untuk mempelajari secara detail tentang berbagai jenis obat, termasuk mekanisme kerjanya dalam tubuh (farmakologi), perjalanan obat dalam tubuh (farmakokinetik), dosis yang tepat, potensi efek samping, interaksi antar obat, serta cara pembuatan dan formulasi sediaan obat yang stabil dan efektif?;jurusan;farmasi
+40;GFKAG01;"Apakah Anda memiliki minat yang besar untuk mempelajari berbagai jenis zat gizi (makronutrien seperti karbohidrat, protein, lemak; dan mikronutrien seperti vitamin, mineral), fungsi spesifiknya bagi tubuh, proses metabolisme, serta sumber-sumbernya dalam bahan makanan?";jurusan;ilmu gizi
+41;GFKAG02;Apakah Anda tertarik untuk menganalisis bagaimana pola konsumsi pangan dan status gizi seseorang atau kelompok masyarakat dapat mempengaruhi kondisi kesehatan, pertumbuhan, perkembangan, serta risiko timbulnya berbagai penyakit (baik penyakit infeksi maupun penyakit tidak menular)?;jurusan;ilmu gizi
+42;GFKKP01;Apakah Anda memiliki keinginan yang tulus dan kuat untuk memberikan perawatan langsung, pendampingan, serta dukungan secara holistik (meliputi aspek fisik, psikologis, sosial, dan spiritual) kepada pasien yang sedang sakit, mengalami cedera, atau membutuhkan bantuan dalam berbagai kondisi kesehatan?;jurusan;keperawatan
+43;GFKKP02;Apakah Anda adalah pribadi yang sabar, telaten, memiliki kemampuan observasi yang baik untuk memantau perubahan kondisi pasien secara detail, serta mampu merespons kebutuhan dasar maupun spesifik pasien secara cepat dan tepat?;jurusan;keperawatan
+44;GFH01;Apakah Anda tertarik dengan proses peradilan di pengadilan (litigasi)?;jurusan;hukum
+45;GFH02;Apakah Anda tertarik untuk mendalami bidang-bidang spesifik dalam hukum, seperti hukum pidana atau perdata?;jurusan;hukum
+46;GFPsi01;Apakah Anda tertarik pada pemahaman tentang pikiran, emosi, dan perilaku manusia?;jurusan;psikologi
+47;GFPsi02;Apakah Anda tertarik pada interaksi manusia dalam konteks organisasi dan kelompok?;jurusan;psikologi

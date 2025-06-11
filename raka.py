@@ -105,15 +105,15 @@ if __name__ == "__main__":
     pertanyaan_fakultas_filtered = pertanyaan_df[pertanyaan_df['tipe_pertanyaan'] == 'fakultas'].copy()
 
     minat_to_fakultas_map = {
-        'saintek': ['teknik', 'teknologi'],
+        'saintek': ['teknik', 'teknologi informasi','kedokteran','matematika dan ilmu pengetahuan alam'],
         'sosial': ['hukum', 'psikologi'] 
     }
 
     if minat_terpilih and minat_terpilih in minat_to_fakultas_map: #minat_terpilih in dst itu cek ada di map atau tidak (line 110,111)
-        relevant_fakultas_categories = minat_to_fakultas_map[minat_terpilih] # contoh ['teknik', 'teknologi'] = minat_to_fakultas_map[saintek]
+        relevant_fakultas_categories = minat_to_fakultas_map[minat_terpilih] # contoh ['teknik', 'teknologi informasi'] = minat_to_fakultas_map[saintek]
         pertanyaan_fakultas_filtered = pertanyaan_fakultas_filtered[
             pertanyaan_fakultas_filtered['kategori_terkait'].isin(relevant_fakultas_categories) # filter pertanyaan_fakultas_filtered berdasarkan kategori yang relevan
-            #contoh: [jurusan yang ada didalam minat saintek] = pertanyaan_fakultas_filtered['kategori_terkait'].isin(['teknik', 'teknologi'])
+            #contoh: [jurusan yang ada didalam minat saintek] = pertanyaan_fakultas_filtered['kategori_terkait'].isin(['teknik', 'teknologi informasi'])
         ]   #jadi pertanyaan_fakultas_filtered hanya berisi pertanyaan yang relevan dengan minat_terpilih
     else:
         pertanyaan_fakultas_filtered = pd.DataFrame() # Jika minat_terpilih tidak ada di map, pertanyaan_fakultas_filtered menjadi kosong
@@ -153,8 +153,10 @@ if __name__ == "__main__":
     pertanyaan_jurusan_filtered = pertanyaan_df[pertanyaan_df['tipe_pertanyaan'] == 'jurusan'].copy()
     
     fakultas_to_jurusan_map = {
-        'teknik': ['arsitektur', 'teknik elektro'],
-        'teknologi': ['teknik informatika', 'sistem informasi'],
+        'teknik': ['arsitektur', 'teknik elektro','teknik industri','teknik sipil'],
+        'teknologi informasi': ['teknik informatika', 'sistem informasi'],
+        'kedokteran': ['kedokteran', 'farmasi','keperawatan','ahli gizi'],
+        'matematika dan ilmu pengetahuan alam': ['matematika', 'fisika', 'biologi', 'kimia'],
         'hukum': ['hukum'],
         'psikologi': ['psikologi']
     }

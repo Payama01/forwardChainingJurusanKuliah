@@ -1,0 +1,7 @@
+id;jurusan_nama;GFH01;GFH02;GFPsi01;GFPsi02;GFTARS01;GFTISI01;GFTISI02;GFTITI01;GFTITI02;GFTTE01
+1;arsitektur;0;0;0;0;1;0;0;0;0;0
+2;hukum;1;1;0;0;0;0;0;0;0;0
+3;psikologi;0;0;1;1;0;0;0;0;0;0
+4;sistem informasi;0;0;0;0;0;1;1;0;0;0
+5;teknik elektro;0;0;0;0;0;0;0;0;0;1
+6;teknik informatika;0;0;0;0;0;0;0;1;1;0

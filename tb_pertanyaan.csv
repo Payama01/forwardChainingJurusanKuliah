@@ -1,0 +1,20 @@
+id;kode;gejala;tipe_pertanyaan;kategori_terkait
+1;G001;Apakah Anda tertarik pada inovasi teknologi dan sains?;minat;saintek
+3;G003;Apakah Anda suka kegiatan yang melibatkan pemahaman perilaku manusia?;minat;sosial
+4;G004;Apakah Anda tertarik pada studi seni?;minat;seni
+5;GFT01;Apakah Anda tertarik pada desain bangunan dan perencanaan kota?;fakultas;teknik
+6;GFT01;Apakah Anda tertarik pada prinsip-prinsip mekanika dan energi?;fakultas;teknik
+7;GFTI01;Apakah Anda tertarik pada pengembangan perangkat lunak dan aplikasi?;fakultas;teknologi
+8;GFTI02;Apakah Anda tertarik pada pengelolaan database dan jaringan komputer?;fakultas;teknologi
+9;GFH01;Apakah Anda tertarik dengan proses peradilan di pengadilan (litigasi)?;jurusan;hukum
+10;GFH02;Apakah Anda tertarik untuk mendalami bidang-bidang spesifik dalam hukum, seperti hukum pidana atau perdata?;jurusan;hukum
+11;GFPsi01;Apakah Anda tertarik pada pemahaman tentang pikiran, emosi, dan perilaku manusia?;jurusan;psikologi
+12;GFPsi02;Apakah Anda tertarik pada interaksi manusia dalam konteks organisasi dan kelompok?;jurusan;psikologi
+13;GFTARS01;Apakah Anda tertarik pada perancangan dan konstruksi bangunan?;jurusan;arsitektur
+14;GFTARS02;Apakah Anda menikmati kegiatan menggambar (baik sketsa tangan maupun menggunakan perangkat lunak desain seperti CAD atau BIM), membuat model fisik atau digital tiga dimensi, dan memvisualisasikan ide-ide rancangan ruang secara detail?;jurusan;arsitektur
+15;GFTTE01;Apakah Anda tertarik pada desain dan analisis sistem kelistrikan;jurusan;teknik elektro
+16;GFTTE02;Apakah Anda memiliki rasa ingin tahu yang besar dan minat mendalam terhadap prinsip-prinsip dasar kelistrikan (arus, tegangan, daya), sirkuit elektronik (analog dan digital), dan fenomena medan elektromagnetik, serta bagaimana semua itu dapat diterapkan dalam teknologi?;jurusan;teknik elektro
+17;GFTITI01;Apakah Anda berminat mengoperasikan komputer dalam jangka lama?;jurusan;teknik informatika
+18;GFTITI02;Apakah Anda tertarik pada pengembangan AI, aplikasi web dan mobile?;jurusan;teknik informatika
+19;GFTISI01;Apakah Anda tertarik untuk menganalisis kebutuhan informasi dan proses bisnis dalam suatu organisasi? ;jurusan;sistem informasi
+20;GFTISI02;Apakah Anda memiliki minat untuk menjembatani komunikasi antara pihak teknis (seperti para programmer atau insinyur IT) dengan pihak pengguna atau manajemen bisnis, serta mampu menerjemahkan kebutuhan bisnis menjadi spesifikasi sistem yang dapat dipahami oleh tim teknis?;jurusan;sistem informasi

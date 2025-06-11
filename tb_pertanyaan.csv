@@ -1,4 +1,4 @@
-id;kode;gejala;tipe_pertanyaan;kategori_terkait
+id;kode;fakta;tipe_pertanyaan;kategori_terkait
 1;G001;Apakah Anda tertarik pada inovasi teknologi dan sains?;minat;saintek
 2;G002;Apakah Anda suka kegiatan yang melibatkan pemahaman perilaku manusia?;minat;sosial
 3;G003;Apakah Anda tertarik pada studi seni?;minat;seni

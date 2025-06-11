@@ -48,18 +48,18 @@ if __name__ == "__main__":
     for index, row in rules_df.iterrows():
         jurusan_nama = row['jurusan_nama']
         
-        gejala_dalam_aturan = {k: v for k, v in row.to_dict().items() if k.startswith('G')}
+        Fakta_dalam_aturan = {k: v for k, v in row.to_dict().items() if k.startswith('G')}
         
         checkRule[index] = {
             'jurusan_nama': jurusan_nama,
-            'gejala_pattern': gejala_dalam_aturan
+            'fakta_pattern': Fakta_dalam_aturan
         }
 
     print("\nHalo! Saya adalah Do-bot, Saya akan membantu Anda menemukan jurusan yang cocok!")
     print("Silakan jawab pertanyaan berikut (y/t):")
     input("Tekan Enter untuk melanjutkan...")
 
-    resGejala = {}
+    resFakta = {}
     minat_terpilih = None
     fakultas_terpilih = None
 
@@ -76,7 +76,7 @@ if __name__ == "__main__":
         nomor_pilihan = 1
         for index, row in pertanyaan_minat.iterrows():
             # Tampilkan pilihan ke pengguna
-            print(f"  {nomor_pilihan}. {row['gejala'].strip()}")
+            print(f"  {nomor_pilihan}. {row['fakta'].strip()}")
             # Simpan mapping: kunci adalah nomor (string), nilai adalah kategori
             pilihan_map[str(nomor_pilihan)] = row['kategori_terkait']
             nomor_pilihan += 1
@@ -124,8 +124,8 @@ if __name__ == "__main__":
     else:
         print(f"Menampilkan pertanyaan fakultas terkait {minat_terpilih.upper()}:")
         for index, row in pertanyaan_fakultas_filtered.iterrows():
-            ans = getInput(f"{row['kode']}. {row['gejala'].strip()} ? ",['y','t'])
-            resGejala[row['kode']]=1 if ans.lower() == 'y' else 0
+            ans = getInput(f"{row['kode']}. {row['fakta'].strip()} ? ",['y','t'])
+            resFakta[row['kode']]=1 if ans.lower() == 'y' else 0
             if ans.lower() == 'y':
                 fakultas_terpilih = row['kategori_terkait']
                 break # Jika user menjawab 'y', tentukan fakultasnya dan hentikan pertanyaan tahap ini
@@ -178,8 +178,8 @@ if __name__ == "__main__":
     else:
         print(f"Menampilkan pertanyaan jurusan terkait {fakultas_terpilih.upper() if fakultas_terpilih else 'umum'}:")
         for index, row in pertanyaan_jurusan_filtered.iterrows():
-            ans = getInput(f"{row['kode']}. {row['gejala'].strip()} ? ",['y','t'])
-            resGejala[row['kode']]=1 if ans.lower() == 'y' else 0
+            ans = getInput(f"{row['kode']}. {row['fakta'].strip()} ? ",['y','t'])
+            resFakta[row['kode']]=1 if ans.lower() == 'y' else 0
 
     # --- Penilaian Kecocokan Jurusan (Exact Match) ---
     print("\n--- Menentukan Jurusan yang Cocok ---")
@@ -187,11 +187,11 @@ if __name__ == "__main__":
     fidx_found_rule_data = None
     
     for rule_id, rule_data in checkRule.items():
-        rule_gejala_pattern = rule_data['gejala_pattern']
-        
-        user_gejala_for_this_rule = {kode: resGejala.get(kode, 0) for kode in rule_gejala_pattern.keys()}
-        
-        if user_gejala_for_this_rule == rule_gejala_pattern:
+        rule_fakta_pattern = rule_data['fakta_pattern']
+
+        user_fakta_for_this_rule = {kode: resFakta.get(kode, 0) for kode in rule_fakta_pattern.keys()}
+
+        if user_fakta_for_this_rule == rule_fakta_pattern:
             fidx_found_rule_data = rule_data
             break
 

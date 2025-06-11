@@ -160,7 +160,7 @@ if __name__ == "__main__":
         'matematika dan ilmu pengetahuan alam': ['matematika', 'fisika', 'biologi', 'kimia'],
         'hukum': ['hukum'],
         'psikologi': ['psikologi'],
-        'ilmu sosial dan ilmu politik': ['ilmu komunikasi', 'ilmu politik', 'sosiologi','hubungan internasional'],
+        'ilmu sosial dan ilmu politik': ['ilmu komunikasi', 'ilmu politik', 'ilmu sosiologi','hubungan internasional'],
         'ilmu bahasa': ['sastra','ilmu perpustakaan'],
         'seni rupa desain': ['seni rupa', 'desain interior', 'DKV']
     }
